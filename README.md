@@ -3,16 +3,6 @@
 
 This is a responsive portfolio template designed to showcase your personal brand, skills, and experiences in a clean and modern way. The template includes a hamburger menu for mobile devices, making it easy to navigate on smaller screens.
 
-## Table of Contents
-
-- [Features](#features)
-- [Demo](#demo)
-- [Technologies Used](#technologies-used)
-- [Setup](#setup)
-- [Customization](#customization)
-- [Usage](#usage)
-- [License](#license)
-
 ## Features
 
 - Responsive design that adjusts to various screen sizes
@@ -44,7 +34,7 @@ cd portfolio-template
 
 **Open index.html in your browser:**
  ```bash
-You can simply double-click on the `index.html` file to open it in your default web browser.
+You can simply double-click on the `index.html` file to open it in your default web browser.`
 
 ## Customization
 
