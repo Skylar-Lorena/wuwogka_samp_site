@@ -68,5 +68,5 @@ This template is open-source and available for use and modification. Please feel
 - Replace `https://github.com/yourusername/portfolio-template.git` with the actual link to your GitHub repository.
 - Modify any other sections as needed to suit your project details.
 
-This `README.md` serves as a comprehensive guide for anyone who wants to use your portfolio template, providing all the necessary information for setup and customization.
+This `README.md` serves as a comprehensive guide for anyone who wants to use the portfolio template, providing all the necessary information for setup and customization.
 
