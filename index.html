@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name | Professional Portfolio</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
         <h1>Your Name</h1>
-        <p>Profession or Job Title</p>
+        <p>Job Title or Profession</p>
         <nav>
             <a href="#about">About</a>
             <a href="#experience">Experience</a>
@@ -23,47 +23,70 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <!-- Add Profile Image -->
-        <img src="/assets/your-photo.jpg.png" alt="Your Name's photo" class="profile-image">
-        <p>Brief introduction about yourself, your career goals, and what makes you unique as a candidate.</p>
+        <img src="your-photo.jpg" alt="Your Name's photo" class="profile-pic">
+        <p>Passionate about [Industry/Profession] with a knack for [describe key strengths or qualities]. Experienced in
+            [relevant work or skills]. Seeking opportunities to contribute to meaningful projects and make an impact in
+            [desired industry].</p>
     </section>
 
     <section id="experience">
-        <h2>Work Experience</h2>
-        <!-- Experience content remains the same -->
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Marketing Coordinator</h3>
+            <p>XYZ Company</p>
+            <p><em>January 2021 – Present</em></p>
+            <ul>
+                <li>Developed and implemented digital marketing strategies that increased engagement by 30%.</li>
+                <li>Managed social media accounts, resulting in a follower increase of 15% within six months.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Content Writer</h3>
+            <p>ABC Corporation</p>
+            <p><em>June 2019 – December 2020</em></p>
+            <ul>
+                <li>Created engaging blog content that attracted an average of 5,000 readers per post.</li>
+                <li>Collaborated with the marketing team to ensure consistent brand messaging across platforms.</li>
+            </ul>
+        </div>
     </section>
 
     <section id="education">
         <h2>Education</h2>
-        <!-- Education content remains the same -->
+        <div class="education-item">
+            <h3>Bachelor of Arts in Communications</h3>
+            <p>University of Example</p>
+            <p><em>Graduated: May 2019</em></p>
+            <p>Relevant Courses: Media Studies, Digital Marketing, Brand Strategy, Communication Theory</p>
+        </div>
+        <div class="education-item">
+            <h3>Certification in Digital Marketing</h3>
+            <p>Online Course Platform</p>
+            <p><em>Completed: August 2020</em></p>
+        </div>
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
-        <!-- Skills content remains the same -->
+        <ul>
+            <li>Digital Marketing</li>
+            <li>Social Media Management</li>
+            <li>Content Creation</li>
+            <li>SEO and Analytics</li>
+            <li>Graphic Design (Adobe Photoshop, Canva)</li>
+        </ul>
     </section>
 
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Let's connect! Feel free to reach out for job inquiries or collaborations.</p>
-        <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-        <!-- Add Social Media Icons -->
-        <div class="social-media">
-            <a href="https://linkedin.com/in/yourprofile" target="_blank">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqE3asP0YRPRnR6U3BS85jeB2u7UWPrmrzA&s" alt="LinkedIn">
-            </a>
-            <a href="https://twitter.com/yourprofile" target="_blank">
-                <img src="data:image/png;base64,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" alt="Twitter">
-            </a>
-            <a href="https://instagram.com/yourprofile" target="_blank">
-                <img src="https://static.vecteezy.com/system/resources/previews/018/930/415/non_2x/instagram-logo-instagram-icon-transparent-free-png.png" alt="Instagram">
-            </a>
+        <h2>Contact</h2>
+        <p>Email: yourname@example.com</p>
+        <p>Phone: +123 456 7890</p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+            <a href="https://twitter.com/yourprofile">Twitter</a>
+            <a href="https://github.com/yourprofile">GitHub</a>
         </div>
     </section>
-
-    <footer>
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
-    </footer>
 </body>
 
 </html>
